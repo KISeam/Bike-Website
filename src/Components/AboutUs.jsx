@@ -24,7 +24,7 @@ const AboutUs = () => {
                   <p className="bg-[#ff2626] py-2 px-2 md:px-4 text-sm w-fit">
                     Our Bike Categories
                   </p>
-                  <h1 className="text-4xl lg:text-5xl font-semibold">
+                  <h1 className="text-4xl lg:text-5xl font-semibold text-white">
                     Helping you find the perfect motorbike
                   </h1>
                 </div>
@@ -47,7 +47,7 @@ const AboutUs = () => {
 
                 <Link
                   to="/about"
-                  className="flex items-center gap-1 border-transparent border-b-2 hover:border-[#ff2626] w-fit mt-6 md:mt-10"
+                  className="flex text-white items-center gap-1 border-transparent border-b-2 hover:border-[#ff2626] w-fit mt-6 md:mt-10"
                 >
                   <p className="text-base font-semibold uppercase">
                     More About Us
