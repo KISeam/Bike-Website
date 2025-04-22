@@ -41,7 +41,7 @@ const Hero = () => {
   }, [slides.length]);
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-black">
       <div className="flex transition-transform duration-700 ease-in-out overflow-hidden">
         <AnimatePresence initial={false} custom={currentSlide}>
           <motion.div
