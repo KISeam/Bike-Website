@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Standard",
+    "imageUrl": "https://img.freepik.com/free-photo/view-cool-powerful-motorcycle_23-2150704809.jpg?semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 2,
+    "name": "Cruiser",
+    "imageUrl": "https://img.freepik.com/premium-photo/chopper-motorcycle-stands-road-i-greece_610315-7883.jpg?semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 3,
+    "name": "Touring",
+    "imageUrl": "https://cdn.motor1.com/images/mgl/KbnlXb/s1/4x3/every-sport-touring-bike-you-can-buy-today---main.webp"
+  },
+  {
+    "id": 4,
+    "name": "Sports",
+    "imageUrl": "https://img.freepik.com/premium-photo/bikes_1032630-5679.jpg?semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 5,
+    "name": "Off-Road",
+    "imageUrl": "https://img.freepik.com/premium-photo/professional-motorcycle-rider-driving-mountains-further-down-off-road-track_926199-2337142.jpg?semt=ais_hybrid&w=740"
+  },
+  {
+    "id": 6,
+    "name": "Dual-Purpose",
+    "imageUrl": "https://img.freepik.com/free-photo/safely-motorcycle-helmet_23-2151531323.jpg?semt=ais_hybrid&w=740"
+  }
+]

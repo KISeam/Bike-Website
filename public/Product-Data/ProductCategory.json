@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "name": "On Road"
+    },
+    {
+        "id": 3,
+        "name": "On/Off Road"
+    },
+    {
+        "id": 4,
+        "name": "Racing"
+    },
+    {
+        "id": 5,
+        "name": "Scooter"
+    }
+]
