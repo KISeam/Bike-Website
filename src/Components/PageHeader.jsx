@@ -8,7 +8,7 @@ const PageHeader = ({ pageName }) => {
         style={{
           backgroundImage: `url("https://img.freepik.com/premium-photo/une-honda-cbr-1000-rr-noir-avec-des-griffures-apparentes-sur-les-cts-1-de-chaques-cots_1305056-118610.jpg?semt=ais_hybrid&w=740")`,
         }}
-        className="w-full bg-cover bg-center h-[300px] md:h-[400px] lg:h-[500px] flex items-center justify-center relative"
+        className="w-full bg-cover bg-center h-[200px] flex items-center justify-center relative"
       >
         <div className="absolute inset-0 bg-black/50 z-0"></div>
 
