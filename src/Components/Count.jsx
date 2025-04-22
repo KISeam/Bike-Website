@@ -68,7 +68,7 @@ const Count = () => {
   return (
     <div className="bg-[#121212] pb-16 md:pb-20" ref={sectionRef}>
       <div className="w-11/12 2xl:w-9/12 mx-auto">
-        <div className="flex flex-wrap items-center justify-center gap-6 px-7 lg:px-10 text-white uppercase">
+        <div className="flex flex-wrap lg:flex-row items-center justify-center gap-6 px-7 lg:px-10 text-white uppercase">
           <div className="flex flex-col items-center justify-center gap-2 lg:gap-4 px-20">
             <h1 className="text-4xl lg:text-5xl font-medium">
               {counts.satisfaction}%
