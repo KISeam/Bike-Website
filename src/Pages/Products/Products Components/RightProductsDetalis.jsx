@@ -37,7 +37,7 @@ const RightProductsDetalis = ({
           <button
             onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
             disabled={currentPage === 1}
-            className="px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 cursor-pointer"
+            className="px-4 py-2 bg-[#ff2626] text-white rounded disabled:opacity-50 cursor-pointer"
           >
             Prev
           </button>
@@ -49,7 +49,7 @@ const RightProductsDetalis = ({
               setCurrentPage((prev) => Math.min(prev + 1, totalPages))
             }
             disabled={currentPage === totalPages}
-            className="px-4 py-2 bg-gray-800 text-white rounded disabled:opacity-50 cursor-pointer"
+            className="px-4 py-2 bg-[#ff2626] text-white rounded disabled:opacity-50 cursor-pointer"
           >
             Next
           </button>
