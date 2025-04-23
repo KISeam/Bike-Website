@@ -8,6 +8,7 @@ import AboutUs from '../../Components/AboutUs'
 import Count from '../../Components/Count'
 import Testimonials from '../../Components/Testimonials'
 import NatureImg from '../../Components/NatureImg'
+import NewArrivals from './Home Components/New Arrivals/NewArrivals'
 
 const Home = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const Home = () => {
           <NatureImg />
           <LatestMotorcycle />
           <ServiceImg />
+          <NewArrivals />
           <Testimonials />
           {/* <LatestBlogs /> */}
         </div>

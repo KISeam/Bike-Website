@@ -1,4 +1,5 @@
 import React from "react";
+import myImg from "../../../assets/Images/myImage.png";
 
 const OurTeam = () => {
   return (
@@ -20,13 +21,13 @@ const OurTeam = () => {
                 <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp8Qujhe-rKUMnxpOtZZUzyuvNR9UMS-mktg&s"
-                    alt=""
+                    src={myImg}
+                    alt="Seam"
                   />
                 </div>
                 <div className="text-center space-y-2">
                   <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
-                    Mike Finney
+                    Khairul Islam Seam
                   </h2>
                   <p className="roboto text-nowrap text-[#b1b1b1]">
                     Director of Marketing
@@ -38,13 +39,13 @@ const OurTeam = () => {
                 <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOntQ0ct2DlJF7AFYbusEeKGuatsT1wAklg&s"
-                    alt=""
+                    src="https://scontent.fdac41-2.fna.fbcdn.net/v/t39.30808-6/480676507_592730777070517_3033229464379547504_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=6kTdnLEyjQQQ7kNvwHGMWBV&_nc_oc=AdmNVKL-YX41UNHkEehXy1iTeLOyK49jE7LSZaZ05b9HW9I4pB79eHg1JogrzR4opm0&_nc_zt=23&_nc_ht=scontent.fdac41-2.fna&_nc_gid=rmZc25UkTvk2nqLQ705cEA&oh=00_AfE7nw9dTvmhkpFr94GtatvroG3U5ZxHai8P2bexHW7ZPw&oe=680ED19C"
+                    alt="Sazzed Image"
                   />
                 </div>
                 <div className="text-center space-y-2">
                   <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
-                    Maggie Blessie
+                    Sazzed
                   </h2>
                   <p className="roboto text-nowrap text-[#b1b1b1]">
                     Media Buyer
@@ -56,13 +57,13 @@ const OurTeam = () => {
                 <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU32nmDQnO3fJ6KNXDDcMWRw0itTsf7zSI8g&s"
-                    alt=""
+                    src="https://scontent.fdac41-2.fna.fbcdn.net/v/t39.30808-1/488307415_2070002016807873_8876329404931679682_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=e99d92&_nc_ohc=m14XTyVoxTUQ7kNvwFEvx6k&_nc_oc=AdlC6Rj0DVBLSHMbT1-5kVPodhJw-CMcB8_UQOP-JK-5Kp9hvU0kt2n1vqO2UcxrBOA&_nc_zt=24&_nc_ht=scontent.fdac41-2.fna&_nc_gid=BrjIBD0sh7pM-T6jLoJEEw&oh=00_AfGZflvxub-n6weA6vylYvK5E7CcI-KZEfJwbao8KVfm3w&oe=680EC91B"
+                    alt="Syed Rahat Hasan Image"
                   />
                 </div>
                 <div className="text-center space-y-2">
                   <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
-                    Jenny Carbonneau
+                    Syed Rahat Hasan
                   </h2>
                   <p className="roboto text-nowrap text-[#b1b1b1]">
                     Marketing Manager
@@ -74,13 +75,13 @@ const OurTeam = () => {
                 <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl9hergAcHllmQbK-owW7Aavm2gmNFJS-kYg&s"
-                    alt=""
+                    src="https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/491850672_552368101240586_6904360610195060246_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=spW0ufgoyCMQ7kNvwGjAqdt&_nc_oc=AdnGCibtmHkTCLKYV4gZaKr49vtsWbdij0izxljiO5EP4utsTZGhlsV8aNPY_mXMJqw&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=_rbDzaPnSUkNiMH7SQLwkw&oh=00_AfEOkjIeKVv1MPedUCgsDMMBZDj6wlrTsE9yTPmzo4kmeA&oe=680EDCAD"
+                    alt="Din Islam Image"
                   />
                 </div>
                 <div className="text-center space-y-2">
                   <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
-                    Hannah Nelson
+                    Din Islam
                   </h2>
                   <p className="roboto text-nowrap text-[#b1b1b1]">
                     Director of Operations

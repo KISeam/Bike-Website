@@ -50,7 +50,7 @@ const Gallery = () => {
         {/* Modal View */}
         {selectedImage && (
           <div
-            className="fixed inset-0 z-50 bg-black bg-opacity-80 flex justify-center items-center"
+            className="fixed inset-0 z-50 bg-black/80 bg-opacity-80 flex justify-center items-center"
             onClick={() => setSelectedImage(null)}
           >
             <img
