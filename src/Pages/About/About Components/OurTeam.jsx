@@ -42,24 +42,6 @@ const OurTeam = () => {
                 <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
-                    src={sazzedImage}
-                    alt="Sazzed Image"
-                  />
-                </div>
-                <div className="text-center space-y-2">
-                  <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
-                    Sazzed
-                  </h2>
-                  <p className="roboto text-nowrap text-[#b1b1b1]">
-                    Media Buyer
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-5">
-                <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                  <img
-                    className="w-full h-full object-cover"
                     src={syedRahatHasanImage}
                     alt="Syed Rahat Hasan Image"
                   />
@@ -70,6 +52,24 @@ const OurTeam = () => {
                   </h2>
                   <p className="roboto text-nowrap text-[#b1b1b1]">
                     Marketing Manager
+                  </p>
+                </div>
+              </div>
+
+              <div className="space-y-5">
+                <div className="w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover"
+                    src={sazzedImage}
+                    alt="Sazzed Image"
+                  />
+                </div>
+                <div className="text-center space-y-2">
+                  <h2 className="text-xl 2xl:text-2xl text-white font-semibold">
+                    Sazzed
+                  </h2>
+                  <p className="roboto text-nowrap text-[#b1b1b1]">
+                    Media Buyer
                   </p>
                 </div>
               </div>

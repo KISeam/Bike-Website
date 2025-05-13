@@ -8,7 +8,7 @@ import TopHeader from '../Components/Header/TopHeader'
 const Root = () => {
   return (
     <>
-      <div>
+      <div className='overflow-hidden'>
         <TopHeader />
         <Header />
         <Outlet />
