@@ -58,13 +58,13 @@ const LatestMotorcycle = () => {
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className="absolute left-[-30px] lg:left-[-70px] cursor-pointer bg-[#ff2626] text-white p-3 rounded-full disabled:opacity-50"
+              className="absolute left-[-30px] lg:left-[-70px] cursor-pointer bg-[#ff2626] text-white p-3 rounded-full disabled:opacity-50 z-10"
             >
               <GoChevronLeft size={24} />
             </button>
 
             {/* Cards */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="flex flex-wrap 2xl:flex-nowrap justify-center gap-10">
               {visibleBikes.map((bike) => (
                 <BikeCard
                   key={bike.id}
@@ -86,7 +86,7 @@ const LatestMotorcycle = () => {
             <button
               onClick={handleNext}
               disabled={currentIndex + bikesPerPage >= bikes.length}
-              className="absolute right-[-30px] lg:right-[-70px] cursor-pointer bg-[#ff2626] text-white p-3 rounded-full disabled:opacity-50"
+              className="absolute right-[-30px] lg:right-[-70px] cursor-pointer bg-[#ff2626] text-white p-3 rounded-full disabled:opacity-50 z-10"
             >
               <GoChevronRight size={24} />
             </button>
