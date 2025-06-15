@@ -68,6 +68,7 @@ const LatestMotorcycle = () => {
               {visibleBikes.map((bike) => (
                 <BikeCard
                   key={bike.id}
+                  id={bike.id}
                   name={bike.name}
                   images={bike.images}
                   originalPrice={bike.originalPrice}

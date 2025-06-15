@@ -82,7 +82,7 @@ const SingleProduct = () => {
           <div className="p-6 max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row gap-6 bg-[#121212] border border-gray-300 rounded-2xl p-6">
               <div className="w-full lg:w-1/2">
-                <div className="w-full h-[400px] overflow-hidden lg:sticky lg:top-30 lg:self-start lg:overflow-y-auto rounded-2xl">
+                <div className="w-full h-[400px] overflow-hidden lg:sticky lg:top-32 lg:self-start lg:overflow-y-auto rounded-2xl">
                   <img
                     src={image}
                     alt={name}

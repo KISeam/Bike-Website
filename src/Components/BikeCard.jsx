@@ -2,8 +2,10 @@ import React from "react";
 import { FaEye, FaMotorcycle } from "react-icons/fa";
 import { GiSpeedometer, GiWeight } from "react-icons/gi";
 import { TbEngine } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const BikeCard = ({
+  id,
   name,
   images,
   originalPrice,
@@ -190,14 +192,14 @@ const BikeCard = ({
               ${originalPrice}
             </h4>
           </div>
-          <button
+          <Link to={`/bikes/${id}`}
             className="uppercase text-white bg-red-600 hover:bg-red-700 py-2.5 px-6 md:py-3 md:px-8 font-bold cursor-pointer transition-all duration-300 rounded-lg"
             onClick={() =>
               document.getElementById(`bike-modal-${name}`).showModal()
             }
           >
             View More
-          </button>
+          </Link>
         </div>
       </div>
     </div>
