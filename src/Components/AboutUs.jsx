@@ -21,7 +21,7 @@ const AboutUs = () => {
             <div className="w-full lg:w-1/2">
               <div className="space-y-6">
                 <div className="space-y-4">
-                  <p className="bg-[#ff2626] py-2 px-2 md:px-4 text-sm w-fit">
+                  <p className="bg-[#ff2626] text-white py-2 px-2 md:px-4 text-sm w-fit">
                     Our Bike Categories
                   </p>
                   <h1 className="text-4xl lg:text-5xl font-semibold text-white">

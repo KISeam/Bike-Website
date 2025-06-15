@@ -23,7 +23,7 @@ const NewArrivals = () => {
                 <p className="bg-[#ff2626] py-2 px-2 md:px-4 text-sm w-fit">
                   Our New Products
                 </p>
-                <h1 className="text-4xl lg:text-5xl font-semibold">
+                <h1 className="text-4xl lg:text-5xl font-semibold text-white">
                   New Arrivals
                 </h1>
               </div>

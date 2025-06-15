@@ -69,7 +69,7 @@ const Testimonials = () => {
                 <p className="bg-[#ff2626] py-2 px-2 md:px-4 text-sm w-fit">
                   Testimonials
                 </p>
-                <h1 className="text-4xl lg:text-5xl font-semibold">
+                <h1 className="text-4xl lg:text-5xl font-semibold text-white">
                   What Our Clients Are Saying
                 </h1>
               </div>
@@ -101,7 +101,7 @@ const Testimonials = () => {
                     key={index}
                     className="border border-gray-600 rounded-md p-12 flex flex-col gap-4 md:gap-6"
                   >
-                    <p className="roboto font-normal italic line-clamp-2">
+                    <p className="roboto font-normal italic line-clamp-2 text-white">
                       {testimonial.quote}
                     </p>
                     <div className="flex justify-between items-center">
@@ -112,7 +112,7 @@ const Testimonials = () => {
                           alt={`${testimonial.name}'s profile`}
                         />
                         <div className="space-y-1">
-                          <h2 className="text-xl font-semibold">
+                          <h2 className="text-xl font-semibold text-white">
                             {testimonial.name}
                           </h2>
                           <p className="text-sm md:text-base text-gray-400">

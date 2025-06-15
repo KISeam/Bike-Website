@@ -8,8 +8,8 @@ import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa6";
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
-  
+  }, []);
+
   return (
     <>
       <div>
@@ -74,10 +74,10 @@ const Contact = () => {
               <div className="w-full lg:w-2/3">
                 <div className="space-y-6">
                   <div className="space-y-4">
-                    <p className="bg-[#ff2626] py-2 px-2 md:px-4 text-sm w-fit">
+                    <p className="bg-[#ff2626] text-white py-2 px-2 md:px-4 text-sm w-fit">
                       Contact
                     </p>
-                    <h1 className="text-4xl lg:text-5xl font-semibold">
+                    <h1 className="text-4xl lg:text-5xl font-semibold text-white">
                       Get In touch
                     </h1>
                   </div>
@@ -91,9 +91,9 @@ const Contact = () => {
                   <div>
                     <div className="flex gap-6">
                       <div className="w-full">
-                        <label className="input validator bg-[#333333]">
+                        <label className="input validator bg-[#333333] text-gray-300">
                           <svg
-                            className="h-[1em] opacity-50"
+                            className="h-[1em] opacity-50 text-gray-300"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                           >
@@ -109,16 +109,17 @@ const Contact = () => {
                             </g>
                           </svg>
                           <input
-                            type="input"
+                            type="text"
                             required
                             placeholder="Username"
                             pattern="[A-Za-z][A-Za-z0-9\-]*"
-                            minlength="3"
-                            maxlength="30"
+                            minLength="3"
+                            maxLength="30"
                             title="Only letters, numbers or dash"
+                            className="text-gray-300 placeholder:text-gray-300"
                           />
                         </label>
-                        <p className="validator-hint">
+                        <p className="validator-hint text-gray-300">
                           Must be 3 to 30 characters
                           <br />
                           containing only letters, numbers or dash
@@ -126,9 +127,9 @@ const Contact = () => {
                       </div>
 
                       <div className="w-full">
-                        <label className="input validator bg-[#333333]">
+                        <label className="input validator bg-[#333333] text-gray-300">
                           <svg
-                            className="h-[1em] opacity-50"
+                            className="h-[1em] opacity-50 text-gray-300"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                           >
@@ -153,9 +154,10 @@ const Contact = () => {
                             type="email"
                             placeholder="mail@site.com"
                             required
+                            className="text-gray-300 placeholder:text-gray-300"
                           />
                         </label>
-                        <div className="validator-hint hidden">
+                        <div className="validator-hint hidden text-gray-300">
                           Enter valid email address
                         </div>
                       </div>
@@ -164,7 +166,7 @@ const Contact = () => {
                     <textarea
                       name=""
                       id=""
-                      className="input w-full h-48 pt-3 bg-[#333333]"
+                      className="input w-full h-48 pt-3 bg-[#333333] text-gray-300 placeholder:text-gray-300"
                       placeholder="Your Message"
                     ></textarea>
                   </div>
